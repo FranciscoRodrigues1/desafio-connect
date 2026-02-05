@@ -7,7 +7,7 @@ import QuemSomos from "../QuemSomos/QuemSomos";
 import Perfil from "../Perfil/Perfil";
 
 import Logo from "../../assets/logo.png";
-import FotoDoPerfil from "../../assets/perfil.jpeg";
+import FotoDoPerfil from "../../assets/perfil.png";
 
 import styles from "./NavBar.module.scss"
 
