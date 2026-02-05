@@ -1,7 +1,7 @@
 .navBar{
     background-color: #205691;
     display: flex;
-    height: 20vh;
+    height: 15vh;
     align-items: center;
     justify-content: space-around;
 
@@ -15,15 +15,18 @@
     a{
         color: #FFFFFF;
         font-size: 1.75rem;
+        font-weight: 400;
     }
 
     img{
         border: solid red 2px;
+        height: 80%;
+        width: 100%;
     }
 
     .imgPerfil{
         height: 10vh;
-        width: 8vw;
+        width: 5vw;
         border-radius: 50%;
         border: solid 5px  #00AAFF;
     }

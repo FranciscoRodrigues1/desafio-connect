@@ -1,0 +1,31 @@
+    .containerTelaInicial{
+        border: red solid 2px;
+        display: flex;
+        text-align: start;
+
+        div{
+            border: solid green 2px;
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+
+        }
+
+        h2{
+            border: solid red 2px;
+            width: 100%;
+            padding-left: 45px;
+            font-size: 5.625rem;
+            color: #205691;
+        }
+
+        p{
+            border: solid black 2px;
+            width: 85%;
+            color: #205691;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+    }

@@ -5,14 +5,14 @@ function Inicio() {
   return (
     <section className={styles.containerTelaInicial}>
       <div>
-        <h2> Sou o início</h2>
+        <h2> Projetos Sociais que transformam</h2>
         <p>
-          Conectamos sua empresa com projetos sociais impactantes. Juntos,
-          criamos mudanças reais na comunidade.
+          Conectamos sua empresa com projetos sociais impactantes.
+          Juntos,criamos mudanças reais na comunidade.
         </p>
       </div>
 
-       <img src={ImgInicial} alt="Imagem da tela inicial" />
+      <img src={ImgInicial} alt="Imagem da tela inicial" />
     </section>
   );
 }
