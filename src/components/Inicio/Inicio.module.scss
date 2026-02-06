@@ -1,31 +1,42 @@
     .containerTelaInicial{
-        border: red solid 2px;
+        //border: red solid 2px;
+
         display: flex;
         text-align: start;
 
         div{
-            border: solid green 2px;
+            //border: solid green 2px;
             width: 50%;
+            height: 100vh;
             display: flex;
             flex-direction: column;
-            justify-content: center;
+            justify-content: space-evenly;
 
 
         }
 
         h2{
-            border: solid red 2px;
+            //border: solid red 2px;
             width: 100%;
-            padding-left: 45px;
+            padding-top: 100px;
+            padding-left: 70px;
             font-size: 5.625rem;
             color: #205691;
         }
 
         p{
-            border: solid black 2px;
-            width: 85%;
+            //border: solid black 2px;
+            width: 100%;
+            padding-left: 70px;
+            padding-bottom: 100px;
             color: #205691;
             font-size: 1.5rem;
             font-weight: bold;
         }
+    }
+
+    .ImgInicial{
+        //border: solid 5px yellow;
+        height: 100vh;
+        width: 50%;
     }

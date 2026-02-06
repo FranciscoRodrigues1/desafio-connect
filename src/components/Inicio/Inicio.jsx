@@ -12,7 +12,7 @@ function Inicio() {
         </p>
       </div>
 
-      <img src={ImgInicial} alt="Imagem da tela inicial" />
+      <img className={styles.ImgInicial} src={ImgInicial} alt="Imagem da tela inicial" />
     </section>
   );
 }
