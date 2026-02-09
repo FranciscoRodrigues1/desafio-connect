@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+.sectioFooter{
+    margin-top: 5%;
+    background-color: #205691;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+
+    p{
+        // border: solid greenyellow;
+        color: #FFFFFF;
+        width: 35%;
+        font-size: 1.025rem;
+    }
+}
+
+.divFooter{
+    // border: solid red;
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    h2{
+        font-size: 2rem;
+        color: #FFFFFF;
+    }
+}
+
+.redesSociais{
+    // border: solid yellow;
+    width: 18%;
+    display: flex;
+    justify-content: space-evenly;
+}
