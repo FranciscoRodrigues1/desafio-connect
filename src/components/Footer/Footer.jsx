@@ -7,7 +7,7 @@ import Styles from "./footer.module.scss";
 
 function Footer() {
   return (
-    <section className={Styles.sectioFooter}>
+    <footer className={Styles.sectioFooter}>
       <div className={Styles.divFooter}>
         <img src={ImgFooter} alt="Imagem da logo da página" />
         <h2>Connect</h2>
@@ -23,7 +23,7 @@ function Footer() {
         <img src={ImgInstagran} alt="imagem da rede social instagram" />
         <img src={ImgWhatsapp} alt="imagem da rede social whatsapp" />
       </section>
-    </section>
+    </footer>
   );
 }
 
