@@ -1,9 +1,8 @@
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import ImgFooter from "../../assets/logo.png";
 import ImgLinkedin from "../../assets/linkedin.png";
 import ImgInstagran from "../../assets/instagram.png";
 import ImgWhatsapp from "../../assets/whatsapp.png";
-import Styles from "./footer.module.scss";
+import Styles from "./Footer.module.scss";
 
 function Footer() {
   return (
