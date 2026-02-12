@@ -14,7 +14,7 @@ function Perfil() {
             pequenas ações podem transformar vidas e estou sempre em busca de
             novas oportunidades para ajudar.
           </p>
-          <address>
+          <address className={styles.endrecos}>
             <p> Camocim, CE</p>
             <p>franciscorodrigues.dev@gmai.com</p>
             <p> Membro desde outubro de 2025</p>

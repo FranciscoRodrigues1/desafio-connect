@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 
-
 .sectioFooter {
     // margin-top: 5%;
     background-color: #205691;
@@ -37,4 +36,39 @@
     width: 18%;
     display: flex;
     justify-content: space-evenly;
+}
+
+
+// --------------------responsivaidade-------------//
+
+
+@media (min-width: 240px) and (max-width: 500px) {
+
+    .sectioFooter {
+        background-color: #205691;
+        height: 40vh;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+        font-family: "Inter", sans-serif;
+
+        p {
+            color: #FFFFFF;
+            width: 100%;
+            font-size: 0.75rem;
+        }
+    }
+
+    .divFooter {
+        width: 75%;
+
+        h2 {
+            font-size: 2rem;
+            color: #FFFFFF;
+        }
+    }
+
+    .redesSociais {
+        width: 100%;
+    }
 }
