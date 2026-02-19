@@ -51,7 +51,7 @@
 
     .containerTelaInicial {
         // border: solid green 5px;
-        height: 80vh;
+        height: 100vh;
         justify-content: space-around;
         flex-direction: column;
 
@@ -73,7 +73,7 @@
             p {
                 // border: solid rgb(19, 18, 18);
                 font-size: 0.813rem;
-                font-family: "Inter", sans;
+                font-family: "Inter", sans-serif;
                 color: #205691;
             }
         }
@@ -81,7 +81,7 @@
         .ImgInicial {
             // border: solid red;
             width: 90%;
-            height: 65%;
+            height: 55%;
             border-radius: 100%;
         }
 
