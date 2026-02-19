@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
 .navBar{
     background-color: #205691;
     display: flex;
@@ -35,20 +37,30 @@
 
 //----------responsivo-----------
 
-@media (min-width : 201px) and (max-width : 500px) {
+@media (min-width: 240px) and (max-width: 500px){
 
 .navBar{
+    height: 12vh;
+
+    ul{
+        // border: solid ;
+        width: 70%;
+        
+    }
+    
     a{
-        font-size: 0.85rem;
+        font-size: 0.75rem;
+        font-family: "Inter", sans-serif;
     }
 
     .logo{
-        width: 10vw;
+        height: 5vh;
+        width: 12vw;
     }
 
     .imgPerfil{
         height: 7vh;
-        width: 10vw;
+        width: 12vw;
     }
 }
 

@@ -1,42 +1,76 @@
- @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
 
- @import url('https://fonts.googleapis.com/css2?family=Alatsi&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Alatsi&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
 
+.containerQuemSomos {
+  height: 100vh;
+  background-image: url("../../assets/backgroundQuemSomos.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100vh;
 
- .containerQuemSomos {
-     height: 100vh;
-     background-image: url("../../assets/backgroundQuemSomos.png");
-     background-repeat: no-repeat;
-     background-size: 100% 100vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
 
-     display: flex;
-     justify-content: flex-end;
-     align-items: center;
- }
+.boxTextosQuemSomos {
+  //  border: solid red;
+  width: 45%;
+  height: 90vh;
 
- .boxTextosQuemSomos {
-    //  border: solid red;
-     width: 45%;
-     height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 
-     display: flex;
-     flex-direction: column;
-     justify-content: space-around;
+  h2 {
+    color: #205691;
+    font-size: 2.5rem;
+    font-family: "Source Sans 3", sans-serif;
+    //   border: solid red;
+    width: 65%;
+  }
 
-     h2 {
-         color: #205691;
-         font-size: 2.5rem;
-         font-family: "Source Sans 3", sans-serif;
-        //   border: solid red;
-         width: 65%;
-     }
+  p {
+    //    border: solid red;
+    font-size: 1.25rem;
+    font-family: "Inter", sans-serif;
+    width: 80%;
+  }
+}
 
-     p {
-        //    border: solid red;
-         font-size: 1.25rem;
-         font-family: "Inter", sans-serif;
-         width: 80%;
-     }
+// ---------resposivo--------------//
 
+@media (min-width: 240px) and (max-width: 500px) {
 
- }
+  .containerQuemSomos {
+    // border: solid black 5px;
+    height: 70vh;
+    background-image: none;
+    text-align: center;
+    
+  }
+
+  .boxTextosQuemSomos {
+    // border: solid red;
+    width: 100%;
+    height: 90%;
+    justify-content: space-evenly;
+    align-items: center;
+
+    h2 {
+      width: 100%;
+    //   border: solid yellow;
+      color: #205691;
+      font-size: 2.25rem;
+      font-family: "Source Sans 3", sans-serif;
+    }
+
+    p {
+      width: 88%;
+    //   border: solid red;
+      font-size: 0.875rem;
+      font-family: "Inter", sans-serif;
+      
+    }
+  }
+}

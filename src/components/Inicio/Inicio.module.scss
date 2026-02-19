@@ -46,48 +46,44 @@
  // -------responsivo--------//
 
 
-@media (min-width: 240px) and (max-width: 540px) {
+@media (min-width: 240px) and (max-width: 500px) {
 
 
     .containerTelaInicial {
-        background-color: aqua;
-            display: flex;
-            height: 100vh;
+        // border: solid green 5px;
+        height: 80vh;
+        justify-content: space-around;
+        flex-direction: column;
+
+        div {
+            // border: solid red;
+            width: 100vw;
+            height: 30vh;
+            text-align: center;
             align-items: center;
-            justify-content: center;
-    
-            div {
-                // border: solid red;
-                width: 45%;
-                height: 60vh;
-                display: flex;
-                flex-direction: column;
-                justify-content: space-evenly;
-    
-                h1 {
-                    font-family: "Source Sans 3", sans-serif;
-                    font-size: 5.40rem;
-                    width: 100%;
-                    // border: solid rgb(33, 178, 146);
-                    color: #205691;
-    
-    
-                }
-    
-                p {
-                    // border: solid red;
-                    font-size: 1.5rem;
-                    font-family: "Alatsi", sans;
-                    color: #205691;
-                    width: 100%;
-                }
+
+            h1 {
+                // border: solid rgb(33, 178, 146);
+                width: 90%;
+                font-family: "Source Sans 3", sans-serif;
+                font-size: 2.5rem;
+                color: #205691;
             }
-    
-            .ImgInicial {
-                // border: solid red;
-                width: 50%;
-                height: 100%;
+
+            p {
+                // border: solid rgb(19, 18, 18);
+                font-size: 0.813rem;
+                font-family: "Inter", sans;
+                color: #205691;
             }
-    
+        }
+
+        .ImgInicial {
+            // border: solid red;
+            width: 90%;
+            height: 65%;
+            border-radius: 100%;
+        }
+
     }
 }
