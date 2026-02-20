@@ -10,7 +10,7 @@ function Footer() {
     <footer className={Styles.sectioFooter}>
       <div className={Styles.divFooter}>
         <img src={ImgFooter} alt="Imagem da logo da página" />
-        <h2>Connect</h2>
+        <h2 >Connect</h2>
       </div>
 
       <p>

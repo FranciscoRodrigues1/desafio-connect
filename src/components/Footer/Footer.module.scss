@@ -40,14 +40,15 @@
 }
 
 
-// --------------------responsivaidade-------------//
+// --------------------responsividade-------------//
 
 
-@media (min-width: 240px) and (max-width: 500px) {
+@media (min-width: 240px) and (max-width: 540px) {
 
     .sectioFooter {
+        // border: solid;
         background-color: #205691;
-        height: 40vh;
+        height: 30vh;
         display: flex;
         flex-direction: column-reverse;
         justify-content: space-evenly;
@@ -61,15 +62,27 @@
     }
 
     .divFooter {
-        width: 75%;
+        // border: solid red;
+        width: 70%;
 
         h2 {
-            font-size: 2rem;
+            font-size: 1.5rem;
             color: #FFFFFF;
+            font-weight: normal;
         }
+
+        // img{
+        //     height: 5vh;
+        // }
     }
 
     .redesSociais {
+        // border: solid yellow;
         width: 100%;
+
+        img{
+            height: 5vh;
+            width: 10vw;
+        }
     }
 }

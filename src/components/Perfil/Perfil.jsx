@@ -16,7 +16,7 @@ function Perfil() {
           </p>
           <address className={styles.endrecos}>
             <p> Camocim, CE</p>
-            <p>franciscorodrigues.dev@gmai.com</p>
+            <p>franciscorodrigues.dev@gmail.com</p>
             <p> Membro desde outubro de 2025</p>
           </address>
           <ul className={styles.listaInteresses}>

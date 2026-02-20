@@ -1,215 +1,147 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
 
-.containerDeAcoes {
-    //  background-color: aqua;
+// .containerDeAcoes {
+//     //  background-color: aqua;
 
-}
+// }
 
 .boxTitulosAcoes {
-    // border: solid rgb(255, 0, 0);
-    height: 50vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  // border: solid rgb(255, 0, 0);
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
-    h2 {
-        // border: green solid;
-        font-size: 3.75rem;
-        font-family: "Source Sans 3", sans-serif;
-        color: #205691;
-    }
+  h2 {
+    // border: green solid;
+    font-size: 3.75rem;
+    font-family: "Source Sans 3", sans-serif;
+    color: #205691;
+  }
 
-    p {
-        // border: solid red;
-        font-size: 1.65rem;
-        font-family: "Inter", sans-serif;
-        font-weight: 400;
-        width: 60%;
-        text-align: center;
-        color: #000000;
-    }
-
+  p {
+    // border: solid red;
+    font-size: 1.65rem;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    width: 60%;
+    text-align: center;
+    color: #000000;
+  }
 }
 
-
 .containerCardsDeAcoes {
-    // background-color: pink;
-    // border: solid red;
-    height: 100vh;
-    // width: 80vw;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+  // background-color: pink;
+  // border: solid red;
+  height: 100vh;
+  // width: 80vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .cardsDeAcoes {
-    // border: solid green;
-    width: 30%;
-    height: 45vh;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    justify-content: space-between;
+  // border: solid green;
+  width: 30%;
+  height: 45vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
 
-    h2 {
-        font-size: 1.875rem;
-        font-family: "Source Sans 3";
-        color: #122F97;
-    }
+  h2 {
+    font-size: 1.875rem;
+    font-family: "Source Sans 3";
+    color: #122f97;
+  }
 
-    img {
-        height: 20vh;
-        width: 80%;
-    }
+  img {
+    height: 20vh;
+    width: 80%;
+  }
 
-    p {
-        width: 70%;
-        font-size: 1rem;
-        font-family: "Source Sans 3", sans-serif;
-        // text-align: center;
-    }
-
+  p {
+    width: 70%;
+    font-size: 1rem;
+    font-family: "Source Sans 3", sans-serif;
+    // text-align: center;
+  }
 }
-
 
 button {
-    padding: 8px 35px;
-    width: 60%;
-    color: #fff;
-    background-color: #205691;
-    font-size: 1.5rem;
-    border-radius: 10px;
-    border: none;
-    cursor: pointer;
-
+  padding: 8px 35px;
+  width: 60%;
+  color: #fff;
+  background-color: #205691;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
 }
-
-
-
-
-
-
-
-
-
 
 // -------------responsivo------------//
 
-
-
-
-
 @media (min-width: 240px) and (max-width: 500px) {
-    .containerDeAcoes {
-        // background-color: aqua;
-        
+//   .containerDeAcoes {
+//     // width: 100vw;
+//     // height: auto;
+//   }
 
+  .boxTitulosAcoes {
+    // border: solid black;
+    height: 35vh;
+    justify-content: space-evenly;
+    // text-align: center;
+
+    h2 {
+    //   border: solid red;
+      font-size: 2.2rem;
     }
 
-    .boxTitulosAcoes {
-        // border: solid rgb(255, 0, 0);
-        height: 30vh;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-evenly;
-
-        h2 {
-            // border: green solid;
-            font-size: 2rem;
-            font-family: "Source Sans 3", sans-serif;
-            color: #205691;
-        }
-
-        p {
-            // border: solid red;
-            font-size: 1rem;
-            font-family: "Inter", sans-serif;
-            // font-weight: 400;
-            width: 80%;
-            text-align: center;
-            color: #000000;
-        }
-
+    p {
+    //   border: solid green;
+      font-size: 1rem;
+      width: 95%;
     }
+  }
 
+  .containerCardsDeAcoes {
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+  }
 
-    .containerCardsDeAcoes {
-        border: solid  #fe0000;
-       height: 100%;
-       display: flex;
-       flex-direction: column;
-       justify-content: space-around;
-       align-items: center;
-    }
+  .cardsDeAcoes {
+    // border: #f30505 solid;
+    width: 90%;
+    height: 70vh;
+    justify-content: space-evenly;
+    width: 100%;
 
-    .cardsDeAcoes {
-        border: solid green;
+    img{
         width: 90%;
-        height: 45vh;
-        text-align: center;
-
-        h2 {
-            font-size: 1.875rem;
-            font-family: "Source Sans 3";
-            color: #122F97;
-        }
-
-        img {
-            height: 20vh;
-            width: 90%;
-        }
-
-        p {
-            width: 70%;
-            font-size: 1rem;
-            font-family: "Source Sans 3", sans-serif;
-            // text-align: center;
-        }
-
     }
 
-
-    button {
-        padding: 8px 35px;
-        width: 80%;
-        color: #fff;
-        background-color: #205691;
-        font-size: 1.5rem;
-        border-radius: 10px;
-        border: none;
-        cursor: pointer;
-
+    h2{
+        font-size: 1.875rem;
     }
+
+    p{
+        // border: solid #0af716;
+        width: 90%;
+        font-size: 1rem;
+    }
+  }
+
+  button{
+    padding: 20px;
+    width: 60%;
+    font-family: "Source sans 3", sans-serif;
+    font-weight: 600;
+    
+  }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
