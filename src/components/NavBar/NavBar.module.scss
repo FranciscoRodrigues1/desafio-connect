@@ -8,11 +8,18 @@
     justify-content: space-around;
 
     ul{
-        //border: solid red 2px;
+        // border: solid red 2px;
         display: flex;
         width: 50%;
         justify-content: space-evenly;
-    }
+    
+
+        li :hover{
+            color: palevioletred;
+            
+        }
+    } 
+    
 
     a{
         color: #FFFFFF;
